@@ -9,7 +9,8 @@ export default {
     name: 'HeaderComponent',
     props: {
         title:{
-            
+            type: String,
+            required: true
         }
     }
 
